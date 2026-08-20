@@ -1,0 +1,6 @@
+view,n,genes,pct_path,mean_len
+V1 full benchmark (per-method native),4351,24,51.9,1786
+V2 shared-10 (published headline),2080,17,59.0,1051
+V3 3x ESM only (sequence-only pLMs),4245,24,51.6,1811
+V4 AM + 4 pLMs,2755,19,56.1,1090
+V5 dbNSFP-5 shared,2422,20,60.0,1313

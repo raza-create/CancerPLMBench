@@ -1,0 +1,11 @@
+method,brier,ece,native,VALID,note
+AlphaMissense,0.0589008230363354,0.0162593455141531,yes,True,probability output
+SaProt,0.129978717303807,0.1948150936324661,rescaled,False,rank/arbitrary scale - Brier and ECE NOT interpretable
+REVEL,0.2079060143791642,0.2409569147163898,yes,False,rank/arbitrary scale - Brier and ECE NOT interpretable
+ESM-2 650M,0.1408834449449751,0.1848771254697132,rescaled,False,rank/arbitrary scale - Brier and ECE NOT interpretable
+CADD,0.1468158484988871,0.1064598961069217,rescaled,False,rank/arbitrary scale - Brier and ECE NOT interpretable
+SIFT,0.14917515583941,0.0956313262332134,rescaled,False,rank/arbitrary scale - Brier and ECE NOT interpretable
+PolyPhen-2,0.1588801232196078,0.0954388693787556,rescaled,False,rank/arbitrary scale - Brier and ECE NOT interpretable
+ESM-2 150M,0.2003690102097812,0.1784238092882913,rescaled,False,rank/arbitrary scale - Brier and ECE NOT interpretable
+ESM-1v,0.1861631390645548,0.1350637510752736,rescaled,False,rank/arbitrary scale - Brier and ECE NOT interpretable
+EVE,0.159701777242018,0.0594968403642692,yes,False,rank/arbitrary scale - Brier and ECE NOT interpretable

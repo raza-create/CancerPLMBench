@@ -1,0 +1,39 @@
+# Deny everything by default
+*
+!*/
+
+# Allow the verification/analysis scripts
+!/step*.py
+!/benchmark/scripts/step1[8-9]*.py
+!/benchmark/scripts/step[2-3][0-9]*.py
+
+# Allow all result CSVs (verified small: 13M total)
+!/benchmark/results/*.csv
+
+# Allow sequence data needed for scoring reproducibility
+!/data/sequences/
+!/data/sequences/**
+!/data/sequences_fixed/
+!/data/sequences_fixed/**
+
+# Allow the manuscript
+!/manuscript/
+!/manuscript/**
+
+# Allow top-level docs
+!/README.md
+!/LICENSE
+!/.gitignore
+
+# Explicitly re-block the large/reproducible-from-source files even if a
+# rule above would have caught them (belt and suspenders)
+benchmark/results/*.json
+benchmark/results/*.npz
+benchmark/results/saprot_compact/
+benchmark/data/
+data/structures/
+data/alignments/
+data/msa/
+*.gz
+*.pt
+*.pth

@@ -1,0 +1,25 @@
+target_gene,gene_type,P,B,Total
+BRCA2,Tumor suppressor,113,584,697
+BRCA1,Tumor suppressor,212,371,583
+NF1,Tumor suppressor,415,54,469
+TSC2,Tumor suppressor,182,203,385
+TP53,Tumor suppressor,228,145,373
+PTEN,Tumor suppressor,239,7,246
+ATM,Tumor suppressor,93,141,234
+VHL,Tumor suppressor,168,25,193
+BRAF,Oncogene,102,12,114
+RET,Oncogene,66,45,111
+TSC1,Tumor suppressor,21,78,99
+TP63,Tumor suppressor,81,11,92
+ALK,Oncogene,16,74,90
+APC,Tumor suppressor,22,67,89
+RB1,Tumor suppressor,41,45,86
+MET,Oncogene,12,68,80
+WT1,Tumor suppressor,51,21,72
+EGFR,Oncogene,17,43,60
+STK11,Tumor suppressor,41,11,52
+KIT,Oncogene,30,22,52
+CDKN2A,Tumor suppressor,36,13,49
+HRAS,Oncogene,30,7,37
+ERBB2,Oncogene,12,19,31
+MYCN,Oncogene,12,10,22

@@ -1,0 +1,8 @@
+variable,included,excluded,test,p
+n,2080,2236,-,-
+% pathogenic,59.0,45.3,chi2,3.20e-19
+median protein length (aa),976,2839,Mann-Whitney,0.00e+00
+mean review stars,1.68,1.59,Mann-Whitney,1.15e-04
+% tumour suppressor,83.1,89.0,chi2,1.82e-08
+median evaluation year,2024,2025,Mann-Whitney,1.08e-01
+genes represented,17,24,-,-

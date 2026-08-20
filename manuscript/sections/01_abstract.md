@@ -1,0 +1,9 @@
+# Abstract
+
+**Motivation:** Accurate interpretation of missense variants in cancer genes is critical for precision oncology, yet thousands of variants remain classified as having uncertain significance. Protein language models (pLMs) offer a route to score variants without disease-specific supervision, but no comprehensive framework exists for systematically benchmarking pLMs against established clinical tools on cancer-gene variants.
+
+**Results:** We present CancerPLMBench, a reproducible benchmarking framework for evaluating protein language models on cancer-variant interpretation. The framework integrates four pLMs (ESM-2 150M and 650M, ESM-1v, structure-aware SaProt), six established predictors (AlphaMissense, REVEL, CADD, SIFT, PolyPhen-2, EVE), and a curated benchmark of 4,245 ClinVar variants spanning 24 cancer genes. Applying CancerPLMBench, we show that structure-aware SaProt (ROC-AUC=0.947) outperforms the supervised REVEL ensemble (0.940) and all other pLMs without using cancer-variant supervision, while AlphaMissense (0.975) remains the top performer. We further demonstrate that AlphaMissense maintains its advantage on variants added to ClinVar after its publication date (post-September 2023), indicating that its performance is not driven by training-data overlap. The framework additionally captures layer-resolved attention patterns showing that cancer-pathogenic positions receive significantly elevated attention in middle-to-deep layers of all four pLMs, though without cancer-specific signal beyond general functional constraint. CancerPLMBench provides the community with a transparent, extensible pipeline for evaluating new pLMs as they emerge.
+
+**Availability and implementation:** Source code, precomputed scores, and benchmark variant set are available at https://github.com/[user]/cancerplmbench under an MIT license.
+
+**Contact:** [your email]

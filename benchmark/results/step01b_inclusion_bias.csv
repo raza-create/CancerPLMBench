@@ -1,0 +1,7 @@
+variable,included,excluded,test,p
+n,2080.0,2271.0,-,
+% pathogenic,59.0,45.4,chi2,4.1488969863975447e-19
+mean protein length (aa),1051.0,2459.0,Mann-Whitney,0.0
+mean ClinVar review stars,1.68,1.59,Mann-Whitney,8.820673701877841e-05
+% tumour suppressor,83.1,89.1,chi2,1.2528940996689144e-08
+n genes represented,17.0,24.0,-,

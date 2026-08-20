@@ -1,0 +1,9 @@
+,burial:buried,burial:intermediate,burial:exposed,order:disordered,order:flexible,order:ordered,best,worst,swing
+AlphaMissense,1,1,1,1,1,1,1,1,0
+SaProt,2,4,5,6,4,2,2,6,4
+REVEL,3,2,2,2,2,3,2,3,1
+ESM-2 650M,4,3,3,5,3,4,3,5,2
+CADD,5,5,4,3,5,5,3,5,2
+ESM-2 150M,6,8,7,8,8,7,6,8,2
+ESM-1v,7,6,6,4,6,8,4,8,4
+EVE,8,7,8,7,7,6,6,8,2

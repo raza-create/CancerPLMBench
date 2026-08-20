@@ -1,0 +1,7 @@
+strat,stratum,n_genes,median_delta,wins,p
+burial,buried,12,-0.00138945666716217,6,0.85009765625
+burial,intermediate,5,0.0625,3,0.3125
+burial,exposed,10,-0.0038461538461538325,4,0.5703125
+order,disordered,7,-0.003018108651911433,3,0.6875
+order,flexible,8,-0.023145933014354025,2,0.296875
+order,ordered,10,0.014189061440567585,6,0.25
